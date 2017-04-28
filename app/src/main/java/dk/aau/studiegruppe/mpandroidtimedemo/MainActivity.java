@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         }
          myAdapter = new MyAdapter(MainActivity.this, 0,
                 listVOs);
-        spinner.setAdapter((SpinnerAdapter) myAdapter);
+        spinner.setAdapter(myAdapter);
 
          lv = (ListView) findViewById(R.id.listView1);
 
@@ -183,7 +183,7 @@ Toast.makeText(MainActivity.this,String.valueOf(myAdapter.listenNine()),Toast.LE
 
     /**
      * generates a random ChartData object with just one DataSet
-     *xx
+     *xx xxx
      * @return
      */
     private LineData generateDataLine(int cnt) {
