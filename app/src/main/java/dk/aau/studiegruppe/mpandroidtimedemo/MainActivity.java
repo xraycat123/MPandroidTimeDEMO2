@@ -183,7 +183,7 @@ Toast.makeText(MainActivity.this,String.valueOf(myAdapter.listenNine()),Toast.LE
 
     /**
      * generates a random ChartData object with just one DataSet
-     *xx xxx
+     *xx xxx kkk
      * @return
      */
     private LineData generateDataLine(int cnt) {
